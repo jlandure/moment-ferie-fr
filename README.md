@@ -17,6 +17,9 @@ exemple utilisation:
   
     console.log( day.lundiDePaques() ); // momentObj, jour de paques de l'année de day
     console.log( moment().lundiDePaques(2018) ); // momentObj, jour de paques de l'année 2018
+
+    console.log( day.isWeekEnd() ); // boolean, retourne vrai si c'est un samedi ou dimanche
+    console.log( day.isWorkingDay() ); // boolean, retourne vrai si c'est un jour de la semaine et un jour non férié
   
     /*
     idem pour:
